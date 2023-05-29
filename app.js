@@ -7,6 +7,8 @@ dotenv.config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Routes
+// app.use("/", require("./routes"));
 
 // Server setup
 app.listen(process.env.PORT, () => {
